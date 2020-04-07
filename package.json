@@ -1,4 +1,12 @@
+
 {
+  //...
+"homepage": "https://github.com/elee0888/EmployeeDirectory",
+"scripts": {
+  //...
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
+},
   "name": "react-employeedirectory",
   "version": "0.1.0",
   "private": true,
@@ -30,5 +38,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^2.2.0"
   }
 }
